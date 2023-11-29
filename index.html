@@ -17,7 +17,8 @@
                 placeholder="Enter your name"
                 required
             />
-       
+    </div>
+    <div>
         <label for="email" id="email-label">Email</label>
             <input 
                 id="email"
@@ -25,7 +26,8 @@
                 placeholder="Enter your Email" 
                 required
             />
-        
+    </div>
+    <div>
         <label for="number" id="number-label">Age (optional)</label>
             <input 
                 id="number"
@@ -36,8 +38,8 @@
                 required
             />
     </div>
-
     <div> 
+        <p>Which option best describes your current role?</p>
         <select id="dropdown">
             <option>Select current role</option>
             <option>Student</option>
@@ -45,6 +47,28 @@
             <option>Part-Time Job</option>
             <option>Other</option>
         </select>
+    </div>
+    <div> 
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <label>
+            <input
+            type="radio"
+            name="user-recommend"
+            value="definitely"
+            checked
+            /> Definitely </label>
+        <label> 
+            <input
+                type="radio"
+                name="user-recommend"
+                value="maybe"
+            /> Maybe</label>
+        <label>
+            <input
+                type="radio"
+                name="user-recommend"
+                value="not-sure"
+            /> Not sure</label>
     </div>
 </body>
 </html>
